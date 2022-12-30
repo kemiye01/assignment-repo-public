@@ -8,10 +8,3 @@ echo "file does not exist"
 
 fi
 echo "you have 2 files in this directory, do you want to see the content of the next file? if YES enter 2 /if NO enter 4"
-read answer
-if [ $answer -eq 1 ]
-then
-cat todo.txt
-else 
-echo "you're all done"
-fi
